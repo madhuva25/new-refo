@@ -8,4 +8,7 @@ export default defineConfig({
     tailwindcss(),
     react()],
   base: '/my-PP',
+  build: {
+    sourcemap: false
+  }
 })
