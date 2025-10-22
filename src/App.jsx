@@ -36,6 +36,8 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/moduleResults" element={<ModuleResults/>} />
         <Route path="/courses" element={<Courses/>} />
+        {/* Fallback: render Home for any unknown path (helps on GitHub Pages) */}
+        <Route path='*' element={<Home/>} />
         
 
      </Routes>
