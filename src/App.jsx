@@ -13,7 +13,8 @@ import Courses from './comp/Courses'
 import Contact from './comp/Contact'
 import Footer from './comp/Footer'
 import Education from './comp/Education'
-import ModuleResults from './comp/ModuleResults'
+import ModulesResults from './comp/ModuleResults'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +35,7 @@ function App() {
         <Route path="/projects" element={<Project />} />
         <Route path="/education" element={<Education/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/moduleResults" element={<ModuleResults/>} />
+        <Route path="/moduleResults" element={<ModulesResults/>} />
         <Route path="/courses" element={<Courses/>} />
         {/* Fallback: render Home for any unknown path (helps on GitHub Pages) */}
         <Route path='*' element={<Home/>} />
