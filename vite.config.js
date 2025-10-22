@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-  base: '/my-PP',
+  base: '/new-refo',
   build: {
     sourcemap: false
   }
